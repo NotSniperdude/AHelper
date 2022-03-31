@@ -6,14 +6,16 @@ function global:HelpPrompt ($propmt){
         .$exepath
     }else {
         mkdir -Path ".\temp\$prompt.help" | Out-Null
-        Invoke-WebRequest -Uri "http://alexaelectronics.atwebpages.com/download/pkgmgr/$prompt/$prompt.ps1" -OutFile ".\temp\$prompt.help\$prompt.ps1"
+        Invoke-WebRequest -Uri "http://alexaelectronics.atwebpages.com/download/AHelper/help/$prompt.help/$prompt.ps1" -OutFile ".\temp\$prompt.help\$prompt.ps1"
         if($?){
             # No error
-            .\temp\$prompt.help\$prompt.ps1
+            $exepath = ".\temp\$prompt.help\$prompt.ps1"
+            .$exepath
+            global:userPrompt
         }else {
             # Error in URI
             # Search database by relavent keyword
-            Write-Host "No Relavent Keyword for help." -ForegroundColor Red
+            Write-Host "No relavent keyword for help." -ForegroundColor Red
             global:userPrompt
         }
     }
