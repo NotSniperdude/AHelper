@@ -6,7 +6,13 @@
 <h2>What's ΛHelper?<h2>
 <p style="font-size: 15px;">ΛHelper is an advanced assistant, fully based on PowerShell. It finds for help articles or simple steps on our database to help you out with whatever you need.</p>
 <img src="https://i.imgur.com/ZLyEC98.png" style="width="1%;" height="1%";">
+<<<<<<< HEAD
+<br>
 <p>Most of the help this assistant provides is provided by our developers and contributors!</p>
 <h3>How to contribute to ΛHelper?</h3>
-<p>You can start with creating small PowerShell scripts outputing the help based of what your trying to help the user on<p>
+<p>You can start with creating small PowerShell scripts outputing the help based of what your trying to help the user on, then commiting to the 'dev' branch.<p>
 <p>Help can vary from many categories!</p>
+
+=======
+
+>>>>>>> f58c9c396132d92c9bfd8e8b8663f24caf3cc11a
