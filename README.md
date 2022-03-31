@@ -12,7 +12,3 @@
 <h3>How to contribute to ΛHelper?</h3>
 <p>You can start with creating small PowerShell scripts outputing the help based of what your trying to help the user on, then commiting to the 'dev' branch.<p>
 <p>Help can vary from many categories!</p>
-
-=======
-
->>>>>>> f58c9c396132d92c9bfd8e8b8663f24caf3cc11a
