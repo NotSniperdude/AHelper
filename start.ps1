@@ -15,4 +15,5 @@ if (Test-Path -Path ".\temp") {
     global:userPrompt
 }else {
     mkdir -Path ".\temp" | Out-Null
+    global:userPrompt
 }
