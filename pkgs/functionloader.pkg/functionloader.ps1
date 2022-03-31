@@ -1,6 +1,6 @@
 function global:HelpPrompt ($propmt){
     if ($prompt-eq "") {
-        global:prompt
+        global:userPrompt
     }elseif (Test-Path -Path ".\help\$prompt.help") {
         $exepath = ".\help\$prompt.help\$prompt.ps1"
         .$exepath

@@ -5,7 +5,7 @@ function global:userPrompt {
 Clear-Host
 Write-Host "(C)2022 ΛHelper"
 #Setup Variables
-$ErrorActionPreference = "Continue"
+$ErrorActionPreference = "SilentlyContinue"
 # Location Bug Fix
 Set-Location $PSScriptRoot
  # Load Packages
