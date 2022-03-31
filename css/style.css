@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#content {
+    padding: 0%;
+    margin: 0%;
+}
+.title-header {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://media0.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+    background-position: ;
+    width: 100%;
+    height: 300px;
+}
+html {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    padding: 0%;
+    margin: 0;
+}
+h1 {
+    padding: 0%;
+    margin: 0%;
+}
