@@ -1,6 +1,9 @@
 <body>
-<h1>ΛHelper</h1>
-<h3>The Advanced Assistant</h3>
-<h2>What's ΛHelper?<h2>
-<p style="font-size: 15px;">ΛHelper is an advanced assistant, fully based on PowerShell. It finds for help articles or simple steps on our database to help you out with whatever you need.</p>
-<img src="https://i.imgur.com/ZLyEC98.png" style="width="1%;" height="1%";">
+    <h1>How to create a help file?<h1>
+    <p>Create a PowerShell file, following this example:<p>
+    <code style="font-size: 15px"> 
+    Write-Host "How to write example file?" <br>
+    Write-Host "Step 1: Create file (exaple.ps1)" <br>
+    # This will go on depending on the topic you choose. You don't have to go by steps.
+    </code>
+</body>
